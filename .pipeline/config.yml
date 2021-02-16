@@ -1,5 +1,5 @@
 general:
-  abapAddonAssemblyKitCredentialsId: 'dineshshyamsingh@gmail.com'
+  abapAddonAssemblyKitCredentialsId: 'S0022407906'
   addonDescriptorFileName: 'addon.yml'
   cfApiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
   cfOrg: 'c7b2bc6dtrial'
@@ -43,7 +43,7 @@ stages:
     confirmDeletion: true
   Publish:
     targetVectorScope: 'P'
-  Post:
-    confirmDeletion: true
-    cfDeleteServiceKeys: true
+  #Post:
+  #  confirmDeletion: true
+  #  cfDeleteServiceKeys: true
     
