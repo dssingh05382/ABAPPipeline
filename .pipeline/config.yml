@@ -1,17 +1,17 @@
 general:
   abapAddonAssemblyKitCredentialsId: 'TechUserAAKaaS'
   addonDescriptorFileName: 'addon.yml'
-  cfApiEndpoint: 'https://api.cf.sap.hana.ondemand.com'
-  cfOrg: 'myOrgBld'
-  cfSpace: 'mySpaceBld'
+  cfApiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
+  cfOrg: 'c7b2bc6dtrial'
+  cfSpace: 'dev'
   cfCredentialsId: 'cfAuthentification'
-  cfServiceInstance: 'bld_system'
-  cfServiceKeyName: 'JENKINS_SAP_COM_0510'
+  cfServiceInstance: 'rpa-developer'
+  cfServiceKeyName: 'SAP_COM_0510'
 stages:
   Prepare System:
     cfService: 'abap'
     cfServicePlan: 'standard'
-    abapSystemAdminEmail: 'user@example.com'
+    abapSystemAdminEmail: 'dineshshyamsingh@gmail.com'
     abapSystemDescription: 'Assembly System'
     abapSystemIsDevelopmentAllowed: false
     abapSystemID: 'BLD'
