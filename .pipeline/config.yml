@@ -1,5 +1,5 @@
 general:
-  abapAddonAssemblyKitCredentialsId: 'TechUserAAKaaS'
+  abapAddonAssemblyKitCredentialsId: 'dineshshyamsingh@gmail.com'
   addonDescriptorFileName: 'addon.yml'
   cfApiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
   cfOrg: 'c7b2bc6dtrial'
